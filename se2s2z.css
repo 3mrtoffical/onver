@@ -262,7 +262,7 @@ h2.date-header{display:none}
 .post-share{transition:.2s; float:left;    margin-bottom: -5px; position:absolute; text-align:center; height:38px; background:#fff; left:0; border-right:1px solid #eee; padding:0 10px; bottom:0}
 .readmore {
     height: 30px;
-    background: #3b485c;
+    background: -webkit-linear-gradient(0deg,#2b3843 0%,#3d4a60 100%);
     left: 0;
     padding: 10px 10px 0px 10px;
     bottom: 0;
