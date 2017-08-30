@@ -55,7 +55,7 @@ div#navbar ul li a{
     display: block;
     font-size: 17px;}
 div#navbar ul li a:hover {
-    border-bottom: 2px solid #ff8400;
+    border-bottom: 2px solid #ff8400!important;
     transition: all .2s;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
