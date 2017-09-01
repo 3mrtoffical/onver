@@ -559,7 +559,19 @@ div#footed h2:before {
 i.fa.fa-comment { color: #ff8400; }
 i.fa.fa-user { color: #ff8400; }
 
-div#footed h2{ position:relative;  z-index:1;  font-size:20px;  padding:8px 5px 13px 5px;  text-align:center;  color:#3d4a60;  margin-bottom:18px;  font-weight:100}
+div#footed h2 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 10px 11px;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    display: block;
+    margin: 0 15px 25px;
+}
 div#footed:last-child{ margin-left:0}
 div#footed{ float:right;  width:32%;  margin-left:1%}
 #footed .widget-content{ font-size:16px;  color:#3d4a60;  padding:8px;  padding-top:0;  line-height:29px}
