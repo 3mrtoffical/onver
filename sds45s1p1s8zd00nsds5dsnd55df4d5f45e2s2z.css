@@ -296,7 +296,6 @@ cursor: pointer;
 position: absolute;
 top: 5px;
 right: 5px;
-z-index: 99999999;
 }
 .post-share a i.fa-linkedin {
 background: #4A74A0;
