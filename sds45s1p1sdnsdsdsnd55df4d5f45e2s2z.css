@@ -535,6 +535,10 @@ div#footed h2:after {
     bottom: -2px;
     left: initial!important;
     right: 0;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
 }
 div#footed:hover h2:after {
     content: "";
@@ -555,10 +559,6 @@ div#footed h2:before {
     color: #ff8400;
     font-family: fontawesome;
     display: initial;
-    transition: all .2s;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;
 }
 
 i.fa.fa-comment { color: #ff8400; }
