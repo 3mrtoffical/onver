@@ -582,6 +582,10 @@ div#footed h2 {
 div#footed:last-child{ margin-left:0}
 div#footed{ float:right;  width:32%;  margin-left:1%}
 #footed .widget-content{ font-size:16px;  color:#3d4a60;  padding:8px;  padding-top:0;  line-height:29px}
+#footed .list-label-widget-content ul li a:hover {
+    background: #ff8400;
+    color: #fff;
+}
 #footed .list-label-widget-content ul li a, #footed .list-label-widget-content ul li span {
     display: block;
     font-size: 17px;
