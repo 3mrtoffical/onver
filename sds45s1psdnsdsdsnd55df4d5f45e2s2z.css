@@ -526,36 +526,41 @@ span.displaypageNum.lastpages{ display:none}
 #sidebar .popular-posts .item-thumbnail{ float:right;  background:#3d4a60;  width:100px;  height:100px;  margin-left:10px;  overflow:hidden;  border-radius:5px}
 /* footer */
 .footer-wrapper{ background:#fff;  clear:both;  overflow:hidden;  padding:14px}
-div#footed h2:after{ content:'';  bottom:0px;  right:0;  left:0px;  background:#bfbfbf;  position:absolute;  z-index:-1;  height:4px}
-div#footed:hover h2:before {
+div#footed h2:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 32px;
+    background-color: #ff8400;
+    bottom: -2px;
+    left: initial!important;
+    right: 0;
+}
+div#footed:hover h2:after {
     content: "";
     position: absolute;
     right: 0;
     left: 0;
     margin: 0 auto;
     width: 100%;
-    height: 4px;
+    height: 2px;
     transition: all .2s;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s;
 }
 div#footed h2:before {
-    content: '';
-    position: absolute;
-    width: 44%;
-    height: 4px;
-    background: #3b485c;
-    right: 0;
-    left: 0;
-    margin: auto;
-    z-index: 2;
-    bottom: 0;
+    margin-left: 12px;
+    content: "\f1d8";
+    color: #ff8400;
+    font-family: fontawesome;
+    display: initial;
     transition: all .2s;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s;
 }
+
 i.fa.fa-comment { color: #ff8400; }
 i.fa.fa-user { color: #ff8400; }
 
@@ -567,6 +572,7 @@ div#footed h2 {
     color: #333;
     font-size: 20px;
     font-weight: 500;
+    border-bottom: 1px solid #e2e2e2;
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     display: block;
     margin: 0 15px 25px;
